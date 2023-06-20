@@ -1,0 +1,178 @@
+:root {
+    --main: #FA00FF;
+    --secondary: #9800FF;
+    --light-bg: #F6F4F4;
+    --dark-bg: #011936;
+}
+
+*:not(ol) {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: var(--light-bg);
+    color: var(--dark-bg);
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.nav--list {
+    list-style: none;
+    display: flex;
+}
+
+.nav--item {
+    margin: 0 20px;
+}
+
+a {
+    color: var(--main);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+.link--active {
+    color: var(--secondary);
+}
+
+nav {
+    width: 100%;
+    background-color: var(--dark-bg);
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav--img {
+    width: 12rem;
+}
+
+main, footer {
+    text-align: center;
+}
+
+.main--title {
+    margin: 3rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}
+
+footer {
+    padding: 2.5rem;
+    margin-top: 2.5rem;
+    background-color: var(--dark-bg);
+    color: var(--main);
+}
+
+/* Index */
+.home--img-airport {
+    width: 90%;
+}
+
+.main--text {
+    margin: 3.3rem 0 2rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.main--text img {
+    width: 50%;
+}
+
+.main--text p {
+    text-align: start;
+    padding: 4rem;
+}
+
+/* About Us */
+
+.about--row {
+    margin: 3.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about--img {
+    width: 20rem;
+}
+
+.about--description {
+    width: 30rem;
+    margin-left: 4rem;
+    text-align: start;
+}
+
+/* Contact */
+
+.contact--info {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.contact--img-window {
+    height: 40rem;
+    width: 80%;
+    object-fit: cover;
+}
+
+.contact--text {
+    margin: 1rem 0 1.5rem;
+}
+
+/* More Information */
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 4rem auto;
+    width: 20rem;
+}
+
+th, td {
+    padding: 3rem;
+}
+
+/* Benefits and Tips */
+
+.benefits--row, .tips--row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    margin: 4rem 0;
+    text-align: left;
+}
+
+.benefits--img, .tips--img {
+    max-width: 25rem;
+}
+
+.benefits--list, .tips--list {
+    max-width: 15rem;
+}
+
+.benefits--list ul, .tips--list ul {
+    margin-left: 2rem;
+}
